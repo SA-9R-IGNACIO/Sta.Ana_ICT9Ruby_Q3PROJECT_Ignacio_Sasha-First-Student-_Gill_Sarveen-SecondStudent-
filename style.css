@@ -1,0 +1,71 @@
+ #map {
+      height: 600px;
+      width: 50%;
+    }
+
+#sched{
+     height: 650px;
+     width: 50%;
+}
+
+body {
+    background-image: url('bg.avif');
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    font-family:"Lucida Console", "Courier New", monospace;
+    color: #342D2E;
+}
+
+#map {
+    height: 600px;
+    width: 50%;
+}
+
+#sched {
+    height: 650px;
+    width: 50%;
+}
+
+h1 {
+     font-size: 50px;
+     box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);
+     -webkit-box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);
+     -moz-box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);
+}
+
+nav {
+     background: #86A788;
+}
+
+h2{
+     font-size: 40px;
+}
+
+animate{
+    animation: backInDown;
+    animation-duration: 2s;
+}
+
+#ticket{
+     padding:5px;
+     background: #FFE2E2;
+     max-width: 600px; height: 400px; 
+     font-size: 30px; 
+     border: 2px solid #86A788;
+     box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);
+                    -webkit-box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);
+                    -moz-box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);;
+}
+
+#ticket2{
+     padding:10px;
+     background: #FFFDEC;
+     max-width: 1900px; height: 800pxpx; 
+     font-size: 30px; 
+     border: 2px solid #86A788;
+     box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);
+                    -webkit-box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);
+                    -moz-box-shadow: 0px 0px 49px 0px rgba(9,48,11,0.41);;
+}
